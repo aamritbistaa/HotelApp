@@ -1,0 +1,11 @@
+Tables
+	RoomTypes is used to define the type of room, its price and description
+		This RoomTypes is linked in Rooms table 
+	Guests table consists of guest details
+	Bookings table links Guest to the Room no(defined in rooms table)
+
+Populated data by the help of post deployment script
+and published it -> encountered an versioning conflict for which went to properties of database project and changed the target version
+
+
+class in data folder will talk to data access class in database which talks to sql
